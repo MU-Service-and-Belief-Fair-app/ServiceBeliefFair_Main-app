@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		775F4712208FFC1500B28826 /* splashscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 775F4711208FFC1500B28826 /* splashscreen@2x.png */; };
 		7796985F207D881E00730E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796985E207D881E00730E67 /* AppDelegate.swift */; };
 		77969861207D881E00730E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77969860207D881E00730E67 /* ViewController.swift */; };
 		77969864207D881E00730E67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77969862207D881E00730E67 /* Main.storyboard */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		775F4711208FFC1500B28826 /* splashscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splashscreen@2x.png"; path = "../../../Desktop/splashscreen@2x.png"; sourceTree = "<group>"; };
 		7796985B207D881E00730E67 /* ServiceBeliefFair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceBeliefFair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7796985E207D881E00730E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77969860207D881E00730E67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 		77969852207D881E00730E67 = {
 			isa = PBXGroup;
 			children = (
-				775F4711208FFC1500B28826 /* splashscreen@2x.png */,
 				7796985D207D881E00730E67 /* ServiceBeliefFair */,
 				77969872207D881E00730E67 /* ServiceBeliefFairTests */,
 				7796987D207D881F00730E67 /* ServiceBeliefFairUITests */,
@@ -238,7 +235,6 @@
 				77969869207D881E00730E67 /* LaunchScreen.storyboard in Resources */,
 				77969866207D881E00730E67 /* Assets.xcassets in Resources */,
 				77969864207D881E00730E67 /* Main.storyboard in Resources */,
-				775F4712208FFC1500B28826 /* splashscreen@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
