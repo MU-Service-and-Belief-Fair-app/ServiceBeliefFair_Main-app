@@ -522,7 +522,7 @@
         <scene sceneID="28f-Pj-gPb">
             <objects>
                 <viewControllerPlaceholder storyboardName="serviceOrgs" id="kSg-qd-dSP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3Bo-Dl-YDQ"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="3Bo-Dl-YDQ" userLabel="ServiceOrgs"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1FL-R8-kYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

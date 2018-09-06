@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--ServiceNavController-->
         <scene sceneID="rvh-xN-h7N">
             <objects>
-                <navigationController id="TBG-K1-NCC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="pFL-f9-c9J"/>
+                <navigationController title="ServiceNavController" id="TBG-K1-NCC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Service" id="pFL-f9-c9J"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lez-xn-DHX">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="1148" y="-123"/>
         </scene>
-        <!--Service-->
+        <!--ServiceTableView-->
         <scene sceneID="Q2Z-Tx-X92">
             <objects>
-                <tableViewController id="uZl-sZ-f4r" customClass="ServiceOrganizationsViewController" customModule="ServiceBeliefFair" sceneMemberID="viewController">
+                <tableViewController id="uZl-sZ-f4r" userLabel="ServiceTableView" customClass="ServiceOrganizationsViewController" customModule="ServiceBeliefFair" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="WAM-Z1-Cp1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Service" id="uKE-fN-EQp"/>
-                    <navigationItem key="navigationItem" id="nk6-BD-T1g"/>
+                    <navigationItem key="navigationItem" title="Service" id="nk6-BD-T1g"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aST-ff-OzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,50 +68,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9AO-Yh-ckB">
-                                <rect key="frame" x="67" y="123" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSw-wL-yhS">
-                                <rect key="frame" x="172" y="85" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4sI-ht-W9C">
-                                <rect key="frame" x="67" y="283" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bty-Ja-oEY" userLabel="QuizArea">
-                                <rect key="frame" x="16" y="482" width="343" height="185"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-tv-TFu">
+                                <rect key="frame" x="5" y="69" width="365" height="588"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-DW-5mF">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="185"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Service and Spritual Live logo" translatesAutoresizingMaskIntoConstraints="NO" id="9AO-Yh-ckB">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="kgY-1R-RE3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4sI-ht-W9C">
+                                        <rect key="frame" x="0.0" y="128" width="365" height="128"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="DGO-yZ-1Dk"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="bty-Ja-oEY" userLabel="QuizArea">
+                                        <rect key="frame" x="0.0" y="256" width="365" height="332"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question for this organization?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-DW-5mF">
+                                                <rect key="frame" x="0.0" y="0.0" width="365" height="26.5"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     A: Text for option A." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUo-hW-74R">
+                                                <rect key="frame" x="0.0" y="82.5" width="365" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     B: Text for option B." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4x7-Ab-xHJ">
+                                                <rect key="frame" x="0.0" y="159" width="365" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     C: Text for option C." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmS-Hj-Mcp">
+                                                <rect key="frame" x="0.0" y="235" width="365" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     D: Text for option D." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1p-kK-t4s">
+                                                <rect key="frame" x="0.0" y="311.5" width="365" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.68478347080000002" green="0.53306047489999997" blue="0.27790607680000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="1" green="0.16903150895642649" blue="0.17283485855602088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="185" id="biE-WZ-Gdr"/>
-                                    <constraint firstAttribute="width" constant="343" id="zje-Ww-oAp"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="bty-Ja-oEY" firstAttribute="bottom" secondItem="yM6-44-HXc" secondAttribute="bottom" id="3Fj-Q8-wEV"/>
-                            <constraint firstItem="yM6-44-HXc" firstAttribute="trailing" secondItem="bty-Ja-oEY" secondAttribute="trailing" constant="16" id="81P-gy-qed"/>
-                            <constraint firstItem="bty-Ja-oEY" firstAttribute="top" secondItem="4sI-ht-W9C" secondAttribute="bottom" constant="22" id="YDC-re-jtB"/>
-                            <constraint firstItem="bty-Ja-oEY" firstAttribute="leading" secondItem="yM6-44-HXc" secondAttribute="leading" constant="16" id="cJr-xj-6P1"/>
+                            <constraint firstItem="yM6-44-HXc" firstAttribute="bottom" secondItem="FHx-tv-TFu" secondAttribute="bottom" constant="10" id="C44-PH-MXz"/>
+                            <constraint firstItem="FHx-tv-TFu" firstAttribute="leading" secondItem="yM6-44-HXc" secondAttribute="leading" constant="5" id="FmL-S8-VPG"/>
+                            <constraint firstAttribute="trailing" secondItem="FHx-tv-TFu" secondAttribute="trailing" constant="5" id="bBE-V7-Neb"/>
+                            <constraint firstItem="FHx-tv-TFu" firstAttribute="top" secondItem="yM6-44-HXc" secondAttribute="top" constant="5" id="hVu-dv-i5b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yM6-44-HXc"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Org1" id="zr6-0i-79g">
+                    <navigationItem key="navigationItem" title="OrganizationName" id="zr6-0i-79g">
                         <barButtonItem key="backBarButtonItem" title="Back" id="0Ja-jc-n0n"/>
                     </navigationItem>
                 </viewController>
@@ -120,4 +145,7 @@
             <point key="canvasLocation" x="3341.5999999999999" y="-122.78860569715144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Service and Spritual Live logo" width="3375" height="2625"/>
+    </resources>
 </document>
