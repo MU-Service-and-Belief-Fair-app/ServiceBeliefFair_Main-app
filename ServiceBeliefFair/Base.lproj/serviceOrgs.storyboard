@@ -14,7 +14,7 @@
         <scene sceneID="rvh-xN-h7N">
             <objects>
                 <navigationController title="ServiceNavController" id="TBG-K1-NCC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Service" id="pFL-f9-c9J"/>
+                    <tabBarItem key="tabBarItem" title="Service" image="Icon-App-29x29" id="pFL-f9-c9J"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lez-xn-DHX">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -146,6 +146,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Icon-App-29x29" width="29" height="29"/>
         <image name="Service and Spritual Live logo" width="3375" height="2625"/>
     </resources>
 </document>

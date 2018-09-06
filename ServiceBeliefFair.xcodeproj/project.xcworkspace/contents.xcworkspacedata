@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ServiceBeliefFair.xcodeproj">
+      location = "group:../../../../Desktop/square-ios-app-xxl.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
