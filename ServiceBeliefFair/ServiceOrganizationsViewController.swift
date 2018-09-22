@@ -10,7 +10,7 @@ import UIKit
 
 class ServiceOrganizationsViewController: UITableViewController {
 
-    let serviceOrgsList = ["ServiceOne", "ServiceTwo", "ServiceThree"]
+    let serviceOrgsList = ["Baptist Student Union", "Campus Crusade For Christ (CRU)", "Muslim Student Association (MSA)", "TEST ORGANIZATION"]
     
     
     
@@ -42,13 +42,16 @@ class ServiceOrganizationsViewController: UITableViewController {
         return serviceOrgsList.count
     }
 
+    //see https://www.raywenderlich.com/462-storyboards-tutorial-for-ios-part-2
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "serviceOrgsCell", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "serviceOrgsCell3", for: indexPath)
+//
         // Configure the cell...
         cell.textLabel?.text = serviceOrgsList[indexPath.row]
         return cell
     }
+    
 
     /*
     // Override to support conditional editing of the table view.
