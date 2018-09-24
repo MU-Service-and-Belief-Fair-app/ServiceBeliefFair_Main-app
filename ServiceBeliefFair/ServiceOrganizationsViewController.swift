@@ -10,7 +10,7 @@ import UIKit
 
 class ServiceOrganizationsViewController: UITableViewController {
 
-    let serviceOrgsList = ["Baptist Student Union", "Campus Crusade For Christ (CRU)", "Muslim Student Association (MSA)", "TEST ORGANIZATION"]
+    //let serviceOrgsList = ["Baptist Student Union", "Campus Crusade For Christ (CRU)", "Muslim Student Association (MSA)", "TEST ORGANIZATION"]
     
     
     
@@ -31,7 +31,7 @@ class ServiceOrganizationsViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+/*
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -51,7 +51,7 @@ class ServiceOrganizationsViewController: UITableViewController {
         cell.textLabel?.text = serviceOrgsList[indexPath.row]
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
