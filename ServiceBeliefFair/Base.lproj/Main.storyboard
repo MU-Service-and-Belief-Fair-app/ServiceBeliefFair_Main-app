@@ -220,38 +220,39 @@
             </objects>
             <point key="canvasLocation" x="1148" y="-123"/>
         </scene>
-        <!--OfficeAboutAbout-->
+        <!--OfficeAbout-->
         <scene sceneID="taK-Y7-fqL">
             <objects>
-                <viewController title="OfficeAboutAbout" id="GBa-bh-9or" sceneMemberID="viewController">
+                <viewController title="OfficeAboutAbout" id="GBa-bh-9or" userLabel="OfficeAbout" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b7b-zD-gnP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="syi-O0-8iB">
-                                <rect key="frame" x="60" y="324" width="240" height="128"/>
+                                <rect key="frame" x="20" y="64" width="374" height="607"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Office hours:
+Monday through Friday, 8 a.m. to 5 p.m.
+Stephen M. DiSalvo, Director
+314.529.9521 or by email sdisalvo@maryville.edu.              The Office of Service and Spiritual Life in Maryville supports students, faculty and staff of all faiths. Through co-curricular opportunities that support Maryville’s desire to educate the whole person, we assist them with their spiritual and personal growth. Several campus spiritual student organizations, as well as the community outreach efforts of local ministries, work with our office to support the spiritual needs of our students.
+Through the collaboration of these groups and the Office of Service and Spiritual Life, we have organized numerous activities such as retreats, reflections, conferences, scripture studies, service projects, guest speakers and forums on a variety of topics.
+
+In addition, we work with other student groups (Community Service Club, etc.), faculty and staff to create awareness of local, national and global social issues. We promote social responsibility and support, and seek out opportunities for community service in the greater St. Louis community and beyond. And we reinforce the learning from these experiences through reflection and discussion.
+
+Stop by anytime to visit us at McNally House. Students come here for classes and meetings, to study, or just for a quiet place to reflect, meditate or pray.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About The Office" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kl2-kD-SUu">
-                                <rect key="frame" x="122" y="111" width="131" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QKs-i9-bwk"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About The Office" id="qUX-yv-cVb"/>
+                    <navigationItem key="navigationItem" title="About the Office" id="qUX-yv-cVb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytk-6Y-uIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2436" y="-1813"/>
+            <point key="canvasLocation" x="2434.7826086956525" y="-1813.0434782608697"/>
         </scene>
         <!--Office Location-->
         <scene sceneID="UFf-uB-cbH">
@@ -268,12 +269,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mcnally house map" translatesAutoresizingMaskIntoConstraints="NO" id="fh4-Ly-pL9">
-                                <rect key="frame" x="57" y="201" width="260" height="373"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mcnally house map" translatesAutoresizingMaskIntoConstraints="NO" id="fh4-Ly-pL9">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OzC-fN-n8h" firstAttribute="bottom" secondItem="fh4-Ly-pL9" secondAttribute="bottom" id="64S-g7-QTb"/>
+                            <constraint firstItem="fh4-Ly-pL9" firstAttribute="centerX" secondItem="kyK-WZ-z9Z" secondAttribute="centerX" id="atL-I8-TQF"/>
+                            <constraint firstItem="fh4-Ly-pL9" firstAttribute="leading" secondItem="kyK-WZ-z9Z" secondAttribute="leading" id="cQO-PZ-nkU"/>
+                            <constraint firstAttribute="trailing" secondItem="fh4-Ly-pL9" secondAttribute="trailing" id="jc9-YH-5b3"/>
+                            <constraint firstItem="fh4-Ly-pL9" firstAttribute="top" secondItem="OzC-fN-n8h" secondAttribute="top" id="jzd-yH-NND"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OzC-fN-n8h"/>
                     </view>
                 </viewController>
@@ -281,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="-9" y="-1945"/>
         </scene>
-        <!--People-->
+        <!--Office Staff-->
         <scene sceneID="oPC-sX-z42">
             <objects>
-                <viewController title="People" id="Iq8-VS-SZT" sceneMemberID="viewController">
+                <viewController title="People" id="Iq8-VS-SZT" userLabel="Office Staff" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H6Y-CW-Ba8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -527,7 +534,7 @@
     <resources>
         <image name="Icon-App-29x29" width="29" height="29"/>
         <image name="Service and Spritual Live logo" width="3375" height="2625"/>
-        <image name="mcnally house map" width="1032" height="1042"/>
-        <image name="splashscreen" width="562" height="1218"/>
+        <image name="mcnally house map" width="516" height="521"/>
+        <image name="splashscreen" width="562.5" height="1218"/>
     </resources>
 </document>
