@@ -108,7 +108,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x17-2j-OVr">
-                                                    <rect key="frame" x="319" y="19" width="22" height="22"/>
+                                                    <rect key="frame" x="319" y="19.5" width="22" height="22"/>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="msa_logo-e1505331087955" translatesAutoresizingMaskIntoConstraints="NO" id="5Pt-W4-vhB">
                                                     <rect key="frame" x="16" y="8.5" width="61" height="43"/>
@@ -216,7 +216,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-tv-TFu">
-                                <rect key="frame" x="5" y="69" width="365" height="542"/>
+                                <rect key="frame" x="5" y="69" width="365" height="544"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baptist-student-union-logo" translatesAutoresizingMaskIntoConstraints="NO" id="9AO-Yh-ckB">
                                         <rect key="frame" x="0.0" y="0.0" width="365" height="80"/>
@@ -235,16 +235,16 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="bty-Ja-oEY" userLabel="QuizArea">
-                                        <rect key="frame" x="0.0" y="310" width="365" height="232"/>
+                                        <rect key="frame" x="0.0" y="310" width="365" height="234"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q: The 'B' in 'BSU' stands for:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-DW-5mF">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="365" height="34.5"/>
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0y-iT-DVX" userLabel="A: Baptist">
-                                                <rect key="frame" x="0.0" y="66" width="365" height="34"/>
+                                                <rect key="frame" x="0.0" y="66.5" width="365" height="34.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="A: Baptist">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -254,7 +254,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8z-O3-3dx" userLabel="B: Bible">
-                                                <rect key="frame" x="0.0" y="132" width="365" height="34"/>
+                                                <rect key="frame" x="0.0" y="133" width="365" height="34.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="B: Bible">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -264,7 +264,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zc5-ox-6G6" userLabel="C: Book">
-                                                <rect key="frame" x="0.0" y="198" width="365" height="34"/>
+                                                <rect key="frame" x="0.0" y="199.5" width="365" height="34.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="C: Book">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
