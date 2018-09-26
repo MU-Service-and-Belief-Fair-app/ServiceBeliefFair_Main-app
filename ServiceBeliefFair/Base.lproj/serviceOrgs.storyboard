@@ -246,97 +246,113 @@
             <objects>
                 <viewController id="j6K-Fs-avu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s7z-Vu-OAM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fnX-6P-UxI">
-                                <rect key="frame" x="5" y="69" width="365" height="544"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="k1B-mO-lil">
+                                <rect key="frame" x="0.0" y="64" width="375" height="892"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="msa_logo-e1505331087955" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-u5-Ffv">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="128"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="jTn-na-Y3q"/>
-                                        </constraints>
-                                    </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W0h-Ag-qcc">
-                                        <rect key="frame" x="0.0" y="128" width="365" height="128"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ROE-Vh-gHP">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="msa_logo-e1505331087955" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-u5-Ffv">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="jTn-na-Y3q"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W0h-Ag-qcc">
+                                                <rect key="frame" x="0.0" y="85" width="375" height="374"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">The purpose of this association will be to serve the best interests of the Muslim students of Maryville University. We will develop a dynamic, united and welcome community on campus, raise awareness of Islam, and help people become better Muslims. The MSA shall promote unity among the Muslim students, exemplify Islam and its values to Muslims and people of others faiths, or no faith, alike through events and activities, and promote understanding between Muslims and people of other (or no) faiths.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="g6Y-W6-WhK" userLabel="QuizArea">
+                                                <rect key="frame" x="0.0" y="868" width="375" height="132"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEJ-vO-kE2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" title="A: Text for option A.">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9u-Sw-RfK">
+                                                        <rect key="frame" x="0.0" y="33" width="375" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" title="B: Text for option B.">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgW-hN-lHs">
+                                                        <rect key="frame" x="0.0" y="66" width="375" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" title="C: Text for option C.">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvk-hA-52i">
+                                                        <rect key="frame" x="0.0" y="99" width="375" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" title="D: Text for option D.">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.68478347080000002" green="0.53306047489999997" blue="0.27790607680000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="1" green="0.169031509" blue="0.1728348586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </stackView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="utj-aP-aQL"/>
+                                            <constraint firstAttribute="trailing" secondItem="BRL-u5-Ffv" secondAttribute="trailing" id="1gC-jU-8l0"/>
+                                            <constraint firstItem="BRL-u5-Ffv" firstAttribute="top" secondItem="ROE-Vh-gHP" secondAttribute="top" id="22p-nX-7eE"/>
+                                            <constraint firstItem="W0h-Ag-qcc" firstAttribute="top" secondItem="BRL-u5-Ffv" secondAttribute="bottom" constant="5" id="HhU-zX-5qD"/>
+                                            <constraint firstAttribute="bottom" secondItem="g6Y-W6-WhK" secondAttribute="bottom" id="JYV-tP-PCZ"/>
+                                            <constraint firstAttribute="height" constant="1000" id="XDt-eL-4vk"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1000" id="XPS-X6-g2l"/>
+                                            <constraint firstItem="W0h-Ag-qcc" firstAttribute="leading" secondItem="ROE-Vh-gHP" secondAttribute="leading" id="d9t-GW-wQm"/>
+                                            <constraint firstItem="g6Y-W6-WhK" firstAttribute="leading" secondItem="W0h-Ag-qcc" secondAttribute="leading" id="lYY-Wf-DWJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="W0h-Ag-qcc" secondAttribute="trailing" id="oSw-r9-ouN"/>
+                                            <constraint firstItem="g6Y-W6-WhK" firstAttribute="trailing" secondItem="W0h-Ag-qcc" secondAttribute="trailing" id="tAD-qq-8VO"/>
+                                            <constraint firstItem="BRL-u5-Ffv" firstAttribute="leading" secondItem="ROE-Vh-gHP" secondAttribute="leading" id="vhf-J0-cqT"/>
                                         </constraints>
-                                        <string key="text">The purpose of this association will be to serve the best interests of the Muslim students of Maryville University. We will develop a dynamic, united and welcome community on campus, raise awareness of Islam, and help people become better Muslims. The MSA shall promote unity among the Muslim students, exemplify Islam and its values to Muslims and people of others faiths, or no faith, alike through events and activities, and promote understanding between Muslims and people of other (or no) faiths.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="g6Y-W6-WhK" userLabel="QuizArea">
-                                        <rect key="frame" x="0.0" y="256" width="365" height="288"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MSA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25q-1Y-CPk">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="26.5"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJi-5l-B7c">
-                                                <rect key="frame" x="0.0" y="50" width="365" height="50"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEJ-vO-kE2">
-                                                <rect key="frame" x="0.0" y="123.5" width="365" height="33"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <state key="normal" title="A: Text for option A.">
-                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                </state>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     B: Text for option B." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIe-oW-RnH">
-                                                <rect key="frame" x="0.0" y="179.5" width="365" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     C: Text for option C." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeT-R5-VvX">
-                                                <rect key="frame" x="0.0" y="223.5" width="365" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     D: Text for option D." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTu-CC-UX0">
-                                                <rect key="frame" x="0.0" y="267.5" width="365" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.68478347080000002" green="0.53306047489999997" blue="0.27790607680000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" red="1" green="0.169031509" blue="0.1728348586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
+                                    </view>
                                 </subviews>
-                            </stackView>
+                                <constraints>
+                                    <constraint firstItem="ROE-Vh-gHP" firstAttribute="leading" secondItem="k1B-mO-lil" secondAttribute="leading" id="LlA-fQ-XoK"/>
+                                    <constraint firstItem="ROE-Vh-gHP" firstAttribute="top" secondItem="k1B-mO-lil" secondAttribute="top" id="Mlt-U1-xPF"/>
+                                    <constraint firstAttribute="bottom" secondItem="ROE-Vh-gHP" secondAttribute="bottom" constant="-64" id="TLu-bm-Rcj"/>
+                                    <constraint firstAttribute="trailing" secondItem="ROE-Vh-gHP" secondAttribute="trailing" id="t0X-O0-lTk"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="dk6-PE-wx9" firstAttribute="bottom" secondItem="fnX-6P-UxI" secondAttribute="bottom" constant="10" id="3c2-oZ-YfE"/>
-                            <constraint firstAttribute="trailing" secondItem="fnX-6P-UxI" secondAttribute="trailing" constant="5" id="HsX-Wg-LCi"/>
-                            <constraint firstItem="fnX-6P-UxI" firstAttribute="top" secondItem="dk6-PE-wx9" secondAttribute="top" constant="5" id="cet-vg-4Lv"/>
-                            <constraint firstItem="fnX-6P-UxI" firstAttribute="leading" secondItem="dk6-PE-wx9" secondAttribute="leading" constant="5" id="xCc-Ij-des"/>
+                            <constraint firstItem="k1B-mO-lil" firstAttribute="top" secondItem="dk6-PE-wx9" secondAttribute="top" id="ITx-9P-D2S"/>
+                            <constraint firstItem="ROE-Vh-gHP" firstAttribute="width" secondItem="s7z-Vu-OAM" secondAttribute="width" id="TDq-7H-BIQ"/>
+                            <constraint firstItem="k1B-mO-lil" firstAttribute="bottom" secondItem="dk6-PE-wx9" secondAttribute="bottom" id="ZgG-DU-u5L"/>
+                            <constraint firstItem="k1B-mO-lil" firstAttribute="trailing" secondItem="dk6-PE-wx9" secondAttribute="trailing" id="iIX-Tu-Wwc"/>
+                            <constraint firstItem="k1B-mO-lil" firstAttribute="leading" secondItem="dk6-PE-wx9" secondAttribute="leading" id="rXf-XB-2tZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dk6-PE-wx9"/>
                     </view>
                     <navigationItem key="navigationItem" title="MSA" id="96F-ET-1XC">
                         <barButtonItem key="backBarButtonItem" title="Back" id="T9C-xq-VyL"/>
                     </navigationItem>
+                    <value key="contentSizeForViewInPopover" type="size" width="375" height="1000"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bxf-vy-kqZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3382" y="56"/>
+            <point key="canvasLocation" x="3381.5999999999999" y="54.872563718140931"/>
         </scene>
     </scenes>
     <resources>
         <image name="Icon-App-29x29" width="29" height="29"/>
         <image name="baptist-student-union-logo" width="300" height="147"/>
         <image name="cm-2" width="144" height="103"/>
-        <image name="msa_logo-e1505331087955" width="1989" height="2158"/>
+        <image name="msa_logo-e1505331087955" width="477.3599853515625" height="517.91998291015625"/>
     </resources>
 </document>
