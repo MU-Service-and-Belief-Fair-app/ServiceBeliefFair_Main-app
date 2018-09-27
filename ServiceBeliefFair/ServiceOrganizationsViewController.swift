@@ -13,7 +13,7 @@ class ServiceOrganizationsViewController: UITableViewController {
     //let serviceOrgsList = ["Baptist Student Union", "Campus Crusade For Christ (CRU)", "Muslim Student Association (MSA)", "TEST ORGANIZATION"]
     
     
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

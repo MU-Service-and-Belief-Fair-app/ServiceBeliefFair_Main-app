@@ -14,6 +14,7 @@
 		77969869207D881E00730E67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77969867207D881E00730E67 /* LaunchScreen.storyboard */; };
 		77969874207D881E00730E67 /* ServiceBeliefFairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77969873207D881E00730E67 /* ServiceBeliefFairTests.swift */; };
 		7796987F207D881F00730E67 /* ServiceBeliefFairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796987E207D881F00730E67 /* ServiceBeliefFairUITests.swift */; };
+		AA3FD2DA215C579300A13BE4 /* ServiceOrgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */; };
 		AAB6F7A82140A9210042F04D /* ServiceOrganizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6F7A72140A9210042F04D /* ServiceOrganizationsViewController.swift */; };
 		AAB6F7AB2140C2670042F04D /* serviceOrgs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB6F7A92140C2670042F04D /* serviceOrgs.storyboard */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		7796987A207D881E00730E67 /* ServiceBeliefFairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceBeliefFairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7796987E207D881F00730E67 /* ServiceBeliefFairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBeliefFairUITests.swift; sourceTree = "<group>"; };
 		77969880207D881F00730E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOrgDetailViewController.swift; sourceTree = "<group>"; };
 		AAB6F7A72140A9210042F04D /* ServiceOrganizationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOrganizationsViewController.swift; sourceTree = "<group>"; };
 		AAB6F7AA2140C2670042F04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ServiceBeliefFair/Base.lproj/serviceOrgs.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				AAB6F7A92140C2670042F04D /* serviceOrgs.storyboard */,
+				AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */,
 				7796985D207D881E00730E67 /* ServiceBeliefFair */,
 				77969872207D881E00730E67 /* ServiceBeliefFairTests */,
 				7796987D207D881F00730E67 /* ServiceBeliefFairUITests */,
@@ -268,6 +271,7 @@
 			files = (
 				77969861207D881E00730E67 /* ViewController.swift in Sources */,
 				7796985F207D881E00730E67 /* AppDelegate.swift in Sources */,
+				AA3FD2DA215C579300A13BE4 /* ServiceOrgDetailViewController.swift in Sources */,
 				AAB6F7A82140A9210042F04D /* ServiceOrganizationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
