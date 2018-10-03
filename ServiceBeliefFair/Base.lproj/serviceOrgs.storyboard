@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TBG-K1-NCC">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,8 +16,12 @@
                 <navigationController title="ServiceNavController" id="TBG-K1-NCC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Service" image="Icon-App-29x29" id="pFL-f9-c9J"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lez-xn-DHX">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.24978154899999999" green="0.16077122090000001" blue="0.1647029817" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="uZl-sZ-f4r" kind="relationship" relationship="rootViewController" id="lc0-tZ-rLJ"/>
@@ -32,17 +36,17 @@
             <objects>
                 <tableViewController id="uZl-sZ-f4r" userLabel="ServiceTableView" customClass="ServiceOrganizationsViewController" customModule="ServiceBeliefFair" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="serviceOrgsCell" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="WAM-Z1-Cp1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
                             <tableViewSection id="fpk-zT-Zgi">
                                 <cells>
                                     <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="serviceOrgsCell1" rowHeight="60" id="pix-1f-lv8" userLabel="BSUcell">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pix-1f-lv8" id="CJG-Wj-yQA">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="59.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baptist-student-union-logo" translatesAutoresizingMaskIntoConstraints="NO" id="HuR-aw-P8h">
@@ -63,7 +67,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYy-8d-1Qu" userLabel="Favorite">
-                                                    <rect key="frame" x="319" y="19" width="22" height="22"/>
+                                                    <rect key="frame" x="354" y="19" width="22" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="22" id="6qa-v6-3FH"/>
                                                         <constraint firstAttribute="height" constant="22" id="W5j-8p-0Ml"/>
@@ -78,7 +82,6 @@
                                                 <constraint firstItem="WYk-yQ-7Ti" firstAttribute="leading" secondItem="HuR-aw-P8h" secondAttribute="trailing" constant="8" id="Trg-cn-o59"/>
                                                 <constraint firstItem="HuR-aw-P8h" firstAttribute="top" secondItem="CJG-Wj-yQA" secondAttribute="top" constant="8" id="ayE-XH-tWj"/>
                                                 <constraint firstAttribute="trailing" secondItem="yYy-8d-1Qu" secondAttribute="trailing" id="t0a-4l-5eW"/>
-                                                <constraint firstItem="yYy-8d-1Qu" firstAttribute="leading" secondItem="WYk-yQ-7Ti" secondAttribute="trailing" constant="14" id="xmg-zE-nS4"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <accessibility key="accessibilityConfiguration" label="BSU">
@@ -89,10 +92,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="serviceOrgsCell1" rowHeight="60" id="M8U-kU-pIK" userLabel="MSAcell">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="60" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M8U-kU-pIK" id="ork-0H-Af5">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="59.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muslim Student Alliance (MSA)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Op2-DO-d6I">
@@ -107,7 +110,11 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x17-2j-OVr">
-                                                    <rect key="frame" x="319" y="19" width="22" height="22"/>
+                                                    <rect key="frame" x="354" y="19" width="22" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="6LK-iA-1nf"/>
+                                                        <constraint firstAttribute="width" constant="22" id="UPt-5h-1uR"/>
+                                                    </constraints>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="msa_logo-e1505331087955" translatesAutoresizingMaskIntoConstraints="NO" id="5Pt-W4-vhB">
                                                     <rect key="frame" x="16" y="8" width="61" height="43"/>
@@ -119,7 +126,6 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Op2-DO-d6I" firstAttribute="leading" secondItem="ork-0H-Af5" secondAttribute="leading" constant="85" id="2n1-96-0xJ"/>
-                                                <constraint firstItem="x17-2j-OVr" firstAttribute="leading" secondItem="Op2-DO-d6I" secondAttribute="trailing" constant="14" id="AkZ-x0-bmi"/>
                                                 <constraint firstItem="5Pt-W4-vhB" firstAttribute="leading" secondItem="ork-0H-Af5" secondAttribute="leading" constant="16" id="Mgm-eQ-FoY"/>
                                                 <constraint firstItem="Op2-DO-d6I" firstAttribute="centerY" secondItem="x17-2j-OVr" secondAttribute="centerY" id="Oxa-tQ-C9h"/>
                                                 <constraint firstItem="Op2-DO-d6I" firstAttribute="top" secondItem="ork-0H-Af5" secondAttribute="topMargin" constant="-6" id="T6X-De-io8"/>
@@ -135,14 +141,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="serviceOrgsCell1" rowHeight="60" id="2lG-I6-qhi" userLabel="CRUcell">
-                                        <rect key="frame" x="0.0" y="120" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="120" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="2lG-I6-qhi" id="5dp-bH-hVv">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="59.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Campus Crusade for Christ (CRU)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyX-9t-cXs">
-                                                    <rect key="frame" x="85" y="5.5" width="220" height="50"/>
+                                                    <rect key="frame" x="85" y="5.3333333333333321" width="220" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="220" id="DcA-n1-pAN"/>
                                                         <constraint firstAttribute="height" constant="50" id="rcl-WS-8sb"/>
@@ -152,14 +158,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cm-2" translatesAutoresizingMaskIntoConstraints="NO" id="CFP-xi-KQ1">
-                                                    <rect key="frame" x="16" y="8.5" width="61" height="43"/>
+                                                    <rect key="frame" x="16" y="8.3333333333333357" width="61" height="43"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="61" id="Ki4-ZN-Ip7"/>
                                                         <constraint firstAttribute="height" constant="43" id="hGf-jB-u2a"/>
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9W-jf-ol4">
-                                                    <rect key="frame" x="319" y="19.5" width="22" height="22"/>
+                                                    <rect key="frame" x="346" y="19.333333333333332" width="22" height="21.999999999999996"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="22" id="SPc-YU-DC6"/>
                                                         <constraint firstAttribute="height" constant="22" id="bww-4v-Gnj"/>
@@ -174,7 +180,7 @@
                                                 <constraint firstItem="fyX-9t-cXs" firstAttribute="centerY" secondItem="5dp-bH-hVv" secondAttribute="centerY" id="VlC-sg-xUz"/>
                                                 <constraint firstItem="fyX-9t-cXs" firstAttribute="leading" secondItem="CFP-xi-KQ1" secondAttribute="trailing" constant="8" id="WFg-Hy-cm2"/>
                                                 <constraint firstItem="CFP-xi-KQ1" firstAttribute="leading" secondItem="5dp-bH-hVv" secondAttribute="leading" constant="16" id="oRa-xf-1PC"/>
-                                                <constraint firstItem="O9W-jf-ol4" firstAttribute="leading" secondItem="fyX-9t-cXs" secondAttribute="trailing" constant="14" id="woN-5Z-r5l"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="O9W-jf-ol4" secondAttribute="trailing" id="tbg-sW-quP"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -203,20 +209,20 @@
             <objects>
                 <viewController id="4VS-40-lFS" customClass="ServiceOrgDetailViewController" customModule="ServiceBeliefFair" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RYo-yw-rqA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-tv-TFu">
-                                <rect key="frame" x="5" y="69" width="365" height="544"/>
+                                <rect key="frame" x="5" y="69" width="404" height="613"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baptist-student-union-logo" translatesAutoresizingMaskIntoConstraints="NO" id="9AO-Yh-ckB">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="kgY-1R-RE3"/>
                                         </constraints>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4sI-ht-W9C">
-                                        <rect key="frame" x="0.0" y="110" width="365" height="170"/>
+                                        <rect key="frame" x="0.0" y="110" width="404" height="170"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="170" id="DGO-yZ-1Dk"/>
@@ -226,16 +232,16 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="bty-Ja-oEY" userLabel="QuizArea">
-                                        <rect key="frame" x="0.0" y="310" width="365" height="234"/>
+                                        <rect key="frame" x="0.0" y="310" width="404" height="303"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q: The 'B' in 'BSU' stands for:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-DW-5mF">
-                                                <rect key="frame" x="0.0" y="0.0" width="365" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="404" height="51.666666666666664"/>
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0y-iT-DVX" userLabel="A: Baptist">
-                                                <rect key="frame" x="0.0" y="66.5" width="365" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="83.666666666666686" width="404" height="52"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="A: Baptist">
@@ -246,7 +252,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8z-O3-3dx" userLabel="B: Bible">
-                                                <rect key="frame" x="0.0" y="133" width="365" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="167.66666666666663" width="404" height="51.666666666666657"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="B: Bible">
@@ -257,7 +263,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zc5-ox-6G6" userLabel="C: Book">
-                                                <rect key="frame" x="0.0" y="199.5" width="365" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="251.33333333333334" width="404" height="51.666666666666657"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="C: Book">
@@ -338,16 +344,16 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="g6Y-W6-WhK" userLabel="QuizArea">
-                                                <rect key="frame" x="10" y="479" width="365" height="352.5"/>
+                                                <rect key="frame" x="10" y="479" width="365" height="351.66666666666674"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q: MSA raises awareness for which religion?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-dX-Jvt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="58.333333333333336"/>
                                                         <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEJ-vO-kE2">
-                                                        <rect key="frame" x="0.0" y="73.5" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="73.333333333333371" width="365" height="58.333333333333343"/>
                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <state key="normal" title="A: Christianity">
@@ -358,7 +364,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9u-Sw-RfK">
-                                                        <rect key="frame" x="0.0" y="147" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="146.66666666666663" width="365" height="58.333333333333343"/>
                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <state key="normal" title="B: Judaism">
@@ -369,7 +375,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgW-hN-lHs">
-                                                        <rect key="frame" x="0.0" y="220.5" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="220" width="365" height="58.333333333333314"/>
                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <state key="normal" title="C: Islam">
@@ -380,7 +386,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvk-hA-52i">
-                                                        <rect key="frame" x="0.0" y="294" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="293.33333333333337" width="365" height="58.333333333333314"/>
                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <state key="normal" title="D: Buddhism">
@@ -473,16 +479,16 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Hvh-d8-aSW" userLabel="QuizArea">
-                                                <rect key="frame" x="10" y="286" width="365" height="181.5"/>
+                                                <rect key="frame" x="10" y="286" width="365" height="181"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q: Does Cru cater to a specific denomination?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJ2-Rh-iSF">
-                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="58.333333333333336"/>
                                                         <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XF-JB-5F0">
-                                                        <rect key="frame" x="0.0" y="61.5" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="61.333333333333314" width="365" height="58.333333333333343"/>
                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <state key="normal" title="A: Yes">
@@ -493,7 +499,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZN-Hi-Trm">
-                                                        <rect key="frame" x="0.0" y="123" width="365" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="122.66666666666667" width="365" height="58.333333333333329"/>
                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <state key="normal" title="B: No">
@@ -558,11 +564,11 @@
             <objects>
                 <viewController id="uZH-H6-WyM" userLabel="CorrectAnserViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tpA-yZ-OXr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UOC-ML-V4w">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="vhe-of-8Vp">
@@ -571,7 +577,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try Again!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpC-pl-yJR">
-                                <rect key="frame" x="34" y="289" width="307" height="89"/>
+                                <rect key="frame" x="53.666666666666657" y="323.66666666666669" width="307" height="89"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="74"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -594,11 +600,11 @@
             <objects>
                 <viewController id="pAs-Kz-xa1" userLabel="CorrectAnserViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J43-tf-BPO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lnk-rG-4K2">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="T8W-DD-ky7">
@@ -607,7 +613,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzd-Iy-Kz8">
-                                <rect key="frame" x="62" y="289.5" width="251.5" height="88.5"/>
+                                <rect key="frame" x="81.333333333333329" y="323.66666666666669" width="251.33333333333337" height="88.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="74"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -633,7 +639,7 @@
         <image name="msa_logo-e1505331087955" width="477.3599853515625" height="517.91998291015625"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uyH-gV-kDk"/>
+        <segue reference="Yix-eu-Yh1"/>
         <segue reference="HLH-aO-tHz"/>
     </inferredMetricsTieBreakers>
 </document>
