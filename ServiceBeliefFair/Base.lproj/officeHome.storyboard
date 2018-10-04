@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hWs-hy-gja">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,11 +15,11 @@
             <objects>
                 <viewController title="OfficeAboutAbout" id="GBa-bh-9or" userLabel="OfficeAbout" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b7b-zD-gnP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syi-O0-8iB">
-                                <rect key="frame" x="20" y="74" width="374" height="603"/>
+                                <rect key="frame" x="20" y="74" width="335" height="583"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Office hours:">
@@ -75,14 +79,14 @@ Stop by anytime to visit us at McNally House. Students come here for classes and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytk-6Y-uIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2434.7826086956525" y="-1813.0434782608697"/>
+            <point key="canvasLocation" x="2249" y="-1839"/>
         </scene>
         <!--Office Location-->
         <scene sceneID="UFf-uB-cbH">
             <objects>
                 <viewController title="Office Location" id="gpy-yq-00k" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kyK-WZ-z9Z">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The McNally House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfV-xf-yvU">
@@ -93,7 +97,7 @@ Stop by anytime to visit us at McNally House. Students come here for classes and
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mcnally house map" translatesAutoresizingMaskIntoConstraints="NO" id="fh4-Ly-pL9">
-                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -109,14 +113,14 @@ Stop by anytime to visit us at McNally House. Students come here for classes and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="reN-Ct-5Sa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9" y="-1945"/>
+            <point key="canvasLocation" x="596" y="-1813"/>
         </scene>
         <!--ServiceFairAbout-->
         <scene sceneID="Hs4-05-0dp">
             <objects>
                 <viewController title="ServiceFairAbout" id="ewl-fs-9WX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rk6-0Z-eob">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Service and Spritual Live logo" translatesAutoresizingMaskIntoConstraints="NO" id="eDU-05-axg">
@@ -148,7 +152,7 @@ Stop by anytime to visit us at McNally House. Students come here for classes and
             <objects>
                 <viewController title="People" id="Iq8-VS-SZT" userLabel="StaffDetailViewController" customClass="StaffInDetailViewController" customModule="ServiceBeliefFair" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H6Y-CW-Ba8">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2V1-FZ-dvz" userLabel="staffPhoto">
@@ -180,33 +184,33 @@ Stop by anytime to visit us at McNally House. Students come here for classes and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wm-0M-Ser" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4150.7246376811599" y="-2003.8043478260872"/>
+            <point key="canvasLocation" x="3196" y="-2554"/>
         </scene>
         <!--staffTableViewController-->
         <scene sceneID="1FA-De-zuI">
             <objects>
                 <tableViewController id="5Ik-qy-V5Z" userLabel="staffTableViewController" customClass="StaffTableViewController" customModule="ServiceBeliefFair" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3ez-JL-Ro9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="staffCell" textLabel="cLp-tV-gSw" detailTextLabel="kJR-0z-AZy" style="IBUITableViewCellStyleSubtitle" id="BcI-mK-XIa">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BcI-mK-XIa" id="Ago-IY-MtI">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cLp-tV-gSw">
-                                            <rect key="frame" x="20.000000000000004" y="5" width="33.333333333333336" height="20.333333333333332"/>
+                                            <rect key="frame" x="16" y="5" width="33.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kJR-0z-AZy">
-                                            <rect key="frame" x="19.999999999999996" y="25.333333333333332" width="43.666666666666664" height="14.333333333333334"/>
+                                            <rect key="frame" x="16" y="25.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
@@ -227,14 +231,14 @@ Stop by anytime to visit us at McNally House. Students come here for classes and
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLC-GY-4d4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3328" y="-1839"/>
+            <point key="canvasLocation" x="3196" y="-1839"/>
         </scene>
         <!--About Hillel-->
         <scene sceneID="sui-UE-l50">
             <objects>
                 <viewController title="About Hillel" id="V9k-3Y-77N" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n71-ZI-IB7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hillel-Footer-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hxh-mS-TfL">
@@ -265,14 +269,14 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9v-OG-DpR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4151" y="-564"/>
+            <point key="canvasLocation" x="5017" y="-1813"/>
         </scene>
         <!--OfficeAbout-->
         <scene sceneID="6Gw-jP-wQQ">
             <objects>
                 <viewController title="OfficeAbout" id="fd8-FA-ciE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EW4-Rq-TM3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="z44-H1-7HK">
@@ -280,7 +284,7 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Office of Service and Spiritual Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hki-ss-qgw">
-                                <rect key="frame" x="11.333333333333343" y="121" width="391.66666666666663" height="33"/>
+                                <rect key="frame" x="-8.5" y="121" width="392" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -365,7 +369,7 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
             <objects>
                 <viewController title="ServiceFairAbout" id="S4q-8p-hNF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eg0-rA-3mU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Service and Spritual Live logo" translatesAutoresizingMaskIntoConstraints="NO" id="hFd-nc-F7W">
@@ -397,7 +401,7 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
             <objects>
                 <viewController title="BeliefFairAbout" id="vdK-47-tX5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B6H-qP-CV6">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66Y-24-rxK">
@@ -427,7 +431,7 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tl8-6J-0d9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4114" y="-1258"/>
+            <point key="canvasLocation" x="4150" y="-1813"/>
         </scene>
         <!--Office-->
         <scene sceneID="JUF-Ba-UJb">
@@ -438,7 +442,7 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hZI-GQ-pch">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.24978154897689819" green="0.16077122092247009" blue="0.16470298171043396" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
