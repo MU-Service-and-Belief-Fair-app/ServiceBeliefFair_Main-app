@@ -283,8 +283,8 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
                                 <rect key="frame" x="33" y="202" width="208" height="386"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Office of Service and Spiritual Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hki-ss-qgw">
-                                <rect key="frame" x="-8.5" y="121" width="392" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Office of Service and Spiritual Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hki-ss-qgw">
+                                <rect key="frame" x="33" y="121" width="326" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -362,7 +362,7 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ok3-dc-BS0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1552.1739130434785" y="-887.77173913043487"/>
+            <point key="canvasLocation" x="1551.2" y="-888.30584707646187"/>
         </scene>
         <!--ServiceFairAbout-->
         <scene sceneID="Apf-K8-Nhg">
@@ -466,8 +466,8 @@ Explore the St. Louis Jewish community at www.jewishinstlouis.org and check out 
         <image name="Hillel-Footer-Logo" width="250" height="187"/>
         <image name="Icon-App-29x29" width="29" height="29"/>
         <image name="Service and Spritual Live logo" width="3375" height="2625"/>
-        <image name="mcnally house map" width="516" height="521"/>
-        <image name="splashscreen" width="562.5" height="1218"/>
+        <image name="mcnally house map" width="1032" height="1042"/>
+        <image name="splashscreen" width="562" height="1218"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

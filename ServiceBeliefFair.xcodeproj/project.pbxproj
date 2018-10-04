@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5818DE21665BBD00E28AF4 /* BeliefOrgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5818DD21665BBD00E28AF4 /* BeliefOrgTableViewController.swift */; };
+		5C5818E021665DD900E28AF4 /* BeliefOrgInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5818DF21665DD900E28AF4 /* BeliefOrgInfo.swift */; };
+		5C5818E421666ACE00E28AF4 /* BeliefOrgDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5818E321666ACE00E28AF4 /* BeliefOrgDescriptionViewController.swift */; };
 		7796985F207D881E00730E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796985E207D881E00730E67 /* AppDelegate.swift */; };
 		77969861207D881E00730E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77969860207D881E00730E67 /* ViewController.swift */; };
 		77969864207D881E00730E67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77969862207D881E00730E67 /* Main.storyboard */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C5818DD21665BBD00E28AF4 /* BeliefOrgTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeliefOrgTableViewController.swift; sourceTree = "<group>"; };
+		5C5818DF21665DD900E28AF4 /* BeliefOrgInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeliefOrgInfo.swift; sourceTree = "<group>"; };
+		5C5818E321666ACE00E28AF4 /* BeliefOrgDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeliefOrgDescriptionViewController.swift; sourceTree = "<group>"; };
 		7796985B207D881E00730E67 /* ServiceBeliefFair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceBeliefFair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7796985E207D881E00730E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77969860207D881E00730E67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 				AA47D0EC2165AC5300C90C2F /* favoritesTab.storyboard */,
 				AA47D0E92165ABBF00C90C2F /* officeHome.storyboard */,
 				AA47D0E72165AB6A00C90C2F /* beliefOrgs.storyboard */,
+				5C5818E321666ACE00E28AF4 /* BeliefOrgDescriptionViewController.swift */,
 				AAB6F7A92140C2670042F04D /* serviceOrgs.storyboard */,
 				AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */,
 				7796985D207D881E00730E67 /* ServiceBeliefFair */,
@@ -130,6 +137,8 @@
 				77969865207D881E00730E67 /* Assets.xcassets */,
 				77969867207D881E00730E67 /* LaunchScreen.storyboard */,
 				7796986A207D881E00730E67 /* Info.plist */,
+				5C5818DD21665BBD00E28AF4 /* BeliefOrgTableViewController.swift */,
+				5C5818DF21665DD900E28AF4 /* BeliefOrgInfo.swift */,
 			);
 			path = ServiceBeliefFair;
 			sourceTree = "<group>";
@@ -291,12 +300,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA47D0E12165990D00C90C2F /* StaffInfo.swift in Sources */,
+				5C5818E421666ACE00E28AF4 /* BeliefOrgDescriptionViewController.swift in Sources */,
 				77969861207D881E00730E67 /* ViewController.swift in Sources */,
 				AA47D0DF216595C500C90C2F /* StaffTableViewController.swift in Sources */,
 				7796985F207D881E00730E67 /* AppDelegate.swift in Sources */,
 				AA3FD2DA215C579300A13BE4 /* ServiceOrgDetailViewController.swift in Sources */,
 				AA47D0E321659D7000C90C2F /* StaffInDetailViewController.swift in Sources */,
 				AAB6F7A82140A9210042F04D /* ServiceOrganizationsViewController.swift in Sources */,
+				5C5818E021665DD900E28AF4 /* BeliefOrgInfo.swift in Sources */,
+				5C5818DE21665BBD00E28AF4 /* BeliefOrgTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
