@@ -15,6 +15,12 @@
 		77969874207D881E00730E67 /* ServiceBeliefFairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77969873207D881E00730E67 /* ServiceBeliefFairTests.swift */; };
 		7796987F207D881F00730E67 /* ServiceBeliefFairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796987E207D881F00730E67 /* ServiceBeliefFairUITests.swift */; };
 		AA3FD2DA215C579300A13BE4 /* ServiceOrgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */; };
+		AA47D0DF216595C500C90C2F /* StaffTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D0DE216595C500C90C2F /* StaffTableViewController.swift */; };
+		AA47D0E12165990D00C90C2F /* StaffInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D0E02165990D00C90C2F /* StaffInfo.swift */; };
+		AA47D0E321659D7000C90C2F /* StaffInDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D0E221659D7000C90C2F /* StaffInDetailViewController.swift */; };
+		AA47D0E82165AB6A00C90C2F /* beliefOrgs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA47D0E72165AB6A00C90C2F /* beliefOrgs.storyboard */; };
+		AA47D0EB2165ABBF00C90C2F /* officeHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA47D0E92165ABBF00C90C2F /* officeHome.storyboard */; };
+		AA47D0ED2165AC5300C90C2F /* favoritesTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA47D0EC2165AC5300C90C2F /* favoritesTab.storyboard */; };
 		AAB6F7A82140A9210042F04D /* ServiceOrganizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6F7A72140A9210042F04D /* ServiceOrganizationsViewController.swift */; };
 		AAB6F7AB2140C2670042F04D /* serviceOrgs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB6F7A92140C2670042F04D /* serviceOrgs.storyboard */; };
 /* End PBXBuildFile section */
@@ -51,6 +57,12 @@
 		7796987E207D881F00730E67 /* ServiceBeliefFairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBeliefFairUITests.swift; sourceTree = "<group>"; };
 		77969880207D881F00730E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOrgDetailViewController.swift; sourceTree = "<group>"; };
+		AA47D0DE216595C500C90C2F /* StaffTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTableViewController.swift; sourceTree = "<group>"; };
+		AA47D0E02165990D00C90C2F /* StaffInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffInfo.swift; sourceTree = "<group>"; };
+		AA47D0E221659D7000C90C2F /* StaffInDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffInDetailViewController.swift; sourceTree = "<group>"; };
+		AA47D0E72165AB6A00C90C2F /* beliefOrgs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = beliefOrgs.storyboard; sourceTree = "<group>"; };
+		AA47D0EA2165ABBF00C90C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ServiceBeliefFair/Base.lproj/officeHome.storyboard; sourceTree = "<group>"; };
+		AA47D0EC2165AC5300C90C2F /* favoritesTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = favoritesTab.storyboard; sourceTree = "<group>"; };
 		AAB6F7A72140A9210042F04D /* ServiceOrganizationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOrganizationsViewController.swift; sourceTree = "<group>"; };
 		AAB6F7AA2140C2670042F04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ServiceBeliefFair/Base.lproj/serviceOrgs.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +95,9 @@
 		77969852207D881E00730E67 = {
 			isa = PBXGroup;
 			children = (
+				AA47D0EC2165AC5300C90C2F /* favoritesTab.storyboard */,
+				AA47D0E92165ABBF00C90C2F /* officeHome.storyboard */,
+				AA47D0E72165AB6A00C90C2F /* beliefOrgs.storyboard */,
 				AAB6F7A92140C2670042F04D /* serviceOrgs.storyboard */,
 				AA3FD2D9215C579300A13BE4 /* ServiceOrgDetailViewController.swift */,
 				7796985D207D881E00730E67 /* ServiceBeliefFair */,
@@ -108,6 +123,9 @@
 				7796985E207D881E00730E67 /* AppDelegate.swift */,
 				77969860207D881E00730E67 /* ViewController.swift */,
 				77969862207D881E00730E67 /* Main.storyboard */,
+				AA47D0DE216595C500C90C2F /* StaffTableViewController.swift */,
+				AA47D0E02165990D00C90C2F /* StaffInfo.swift */,
+				AA47D0E221659D7000C90C2F /* StaffInDetailViewController.swift */,
 				AAB6F7A72140A9210042F04D /* ServiceOrganizationsViewController.swift */,
 				77969865207D881E00730E67 /* Assets.xcassets */,
 				77969867207D881E00730E67 /* LaunchScreen.storyboard */,
@@ -242,8 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				77969869207D881E00730E67 /* LaunchScreen.storyboard in Resources */,
+				AA47D0EB2165ABBF00C90C2F /* officeHome.storyboard in Resources */,
 				AAB6F7AB2140C2670042F04D /* serviceOrgs.storyboard in Resources */,
+				AA47D0E82165AB6A00C90C2F /* beliefOrgs.storyboard in Resources */,
 				77969866207D881E00730E67 /* Assets.xcassets in Resources */,
+				AA47D0ED2165AC5300C90C2F /* favoritesTab.storyboard in Resources */,
 				77969864207D881E00730E67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA47D0E12165990D00C90C2F /* StaffInfo.swift in Sources */,
 				77969861207D881E00730E67 /* ViewController.swift in Sources */,
+				AA47D0DF216595C500C90C2F /* StaffTableViewController.swift in Sources */,
 				7796985F207D881E00730E67 /* AppDelegate.swift in Sources */,
 				AA3FD2DA215C579300A13BE4 /* ServiceOrgDetailViewController.swift in Sources */,
+				AA47D0E321659D7000C90C2F /* StaffInDetailViewController.swift in Sources */,
 				AAB6F7A82140A9210042F04D /* ServiceOrganizationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +348,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 			usesTabs = 0;
+		};
+		AA47D0E92165ABBF00C90C2F /* officeHome.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA47D0EA2165ABBF00C90C2F /* Base */,
+			);
+			name = officeHome.storyboard;
+			sourceTree = "<group>";
 		};
 		AAB6F7A92140C2670042F04D /* serviceOrgs.storyboard */ = {
 			isa = PBXVariantGroup;
